@@ -16,54 +16,6 @@
                 "sourceUrl": "https://github.com/fdett/jellyfin-ignore/jellyfin-ignore/jellyfin-ignore_0.2303.2315.5735.zip",
                 "checksum": "18aa88c081eec67a502101fb2b9adc29",
                 "timestamp": "2023-03-23T15:57:37Z"
-            },
-            {
-                "version": "0.2303.2315.5608",
-                "changelog": "First version\n",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://github.com/fdett/jellyfin-ignore/jellyfin-ignore/jellyfin-ignore_0.2303.2315.5608.zip",
-                "checksum": "f0fb4f747d5b756638450a3c94ed1569",
-                "timestamp": "2023-03-23T15:56:10Z"
-            },
-            {
-                "version": "0.2303.2315.5134",
-                "changelog": "First version\n",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://github.com/fdett/jellyfin-ignore/jellyfin-ignore/jellyfin-ignore_0.2303.2315.5134.zip",
-                "checksum": "36c166564513bc566349b31b850533b5",
-                "timestamp": "2023-03-23T15:51:37Z"
-            },
-            {
-                "version": "0.2303.2315.3754",
-                "changelog": "changelog\n",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://github.com/fdett/jellyfin-ignore/jellyfin-ignore/jellyfin-ignore_0.2303.2315.3754.zip",
-                "checksum": "5e8daa20909065ab9d6a46f1cd9e120c",
-                "timestamp": "2023-03-23T15:38:02Z"
-            },
-            {
-                "version": "0.2303.2315.1217",
-                "changelog": "changelog\n",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://github.com/fdett/jellyfin-ignore/jellyfin-ignore/jellyfin-ignore_0.2303.2315.1217.zip",
-                "checksum": "de4760caa67c950a7fe788a79c379a49",
-                "timestamp": "2023-03-23T15:12:20Z"
-            },
-            {
-                "version": "0.2303.2315.145",
-                "changelog": "changelog\n",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://github.com/fdett/jellyfin-ignore/jellyfin-ignore/jellyfin-ignore_0.2303.2315.145.zip",
-                "checksum": "cf155d6a017c52fb4ed90a792566e795",
-                "timestamp": "2023-03-23T15:01:47Z"
-            },
-            {
-                "version": "0.2303.2314.5316",
-                "changelog": "changelog\n",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://github.com/fdett/jellyfin-ignore/jellyfin-ignore/jellyfin-ignore_0.2303.2314.5316.zip",
-                "checksum": "c1fec3b0310048f67b02ea81e7ad4a2e",
-                "timestamp": "2023-03-23T14:53:19Z"
             }
         ]
     }
