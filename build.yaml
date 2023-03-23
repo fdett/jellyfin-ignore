@@ -13,3 +13,4 @@ artifacts:
 - "Jellyfin.Plugin.Ignore.dll"
 changelog: >
   First version
+imageUrl: "https://raw.githubusercontent.com/fdett/jellyfin-ignore/master/image.png"

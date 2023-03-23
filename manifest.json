@@ -7,15 +7,15 @@
         "owner": "fdett",
         "category": "General",
         "image": "image.png",
-        "imageUrl": "https://github.com/fdett/jellyfin-ignore/jellyfin-ignore/image.png",
+        "imageUrl": "https://raw.githubusercontent.com/fdett/jellyfin-ignore/master/image.png",
         "versions": [
             {
-                "version": "0.2303.2315.5735",
+                "version": "0.2303.2316.1500",
                 "changelog": "First version\n",
                 "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://github.com/fdett/jellyfin-ignore/jellyfin-ignore/jellyfin-ignore_0.2303.2315.5735.zip",
-                "checksum": "18aa88c081eec67a502101fb2b9adc29",
-                "timestamp": "2023-03-23T15:57:37Z"
+                "sourceUrl": "https://github.com/fdett/jellyfin-ignore/jellyfin-ignore/jellyfin-ignore_0.2303.2316.1500.zip",
+                "checksum": "bea60ffbabe64547c4e0aaa138a78328",
+                "timestamp": "2023-03-23T16:15:01Z"
             }
         ]
     }
