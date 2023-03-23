@@ -7,8 +7,16 @@
         "owner": "fdett",
         "category": "General",
         "image": "image.png",
-        "imageUrl": "https://raw.githubusercontent.com/fdett/jellyfin-ignore/master/image.png",
+        "imageUrl": "https://github.com/fdett/jellyfin-ignore/blob/master/img/image.png",
         "versions": [
+            {
+                "version": "0.2303.2316.1648",
+                "changelog": "First version\n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/fdett/jellyfin-ignore/jellyfin-ignore/jellyfin-ignore_0.2303.2316.1648.zip",
+                "checksum": "9e8042844d610f77b19495e88fd3ce40",
+                "timestamp": "2023-03-23T16:16:49Z"
+            },
             {
                 "version": "0.2303.2316.1500",
                 "changelog": "First version\n",
