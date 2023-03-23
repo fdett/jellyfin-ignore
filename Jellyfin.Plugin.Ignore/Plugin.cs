@@ -1,13 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using Jellyfin.Plugin.Template.Configuration;
+using Jellyfin.Plugin.Ignore.Configuration;
 using MediaBrowser.Common.Configuration;
+
 using MediaBrowser.Common.Plugins;
 using MediaBrowser.Model.Plugins;
 using MediaBrowser.Model.Serialization;
 
-namespace Jellyfin.Plugin.Template;
+namespace Jellyfin.Plugin.Ignore;
 
 /// <summary>
 /// The main plugin.
@@ -23,18 +24,30 @@ public class Plugin : BasePlugin<PluginConfiguration>, IHasWebPages
         : base(applicationPaths, xmlSerializer)
     {
         Instance = this;
+        this.ConfigurationChanged = this.ConfigurationChangedEventHandler;
+        IgnoreRule.UpdateGlobs();
     }
 
     /// <inheritdoc />
-    public override string Name => "Template";
+    public override string Name => "Jellyfin Ignore";
 
     /// <inheritdoc />
-    public override Guid Id => Guid.Parse("eb5d7894-8eef-4b36-aa6f-5d124e828ce1");
+    public override Guid Id => Guid.Parse("277cd84e-44c3-45a1-8f3c-2537ddac0ccf");
 
     /// <summary>
     /// Gets the current plugin instance.
     /// </summary>
     public static Plugin? Instance { get; private set; }
+
+    /// <summary>
+    /// When the configuration is updated by the user, we also update the ignore patterns.
+    /// </summary>
+    /// <param name="sender">The object triggering the configuration change.</param>
+    /// <param name="c">The configuration object.</param>
+    public void ConfigurationChangedEventHandler(object? sender, BasePluginConfiguration c)
+    {
+        IgnoreRule.UpdateGlobs();
+    }
 
     /// <inheritdoc />
     public IEnumerable<PluginPageInfo> GetPages()
