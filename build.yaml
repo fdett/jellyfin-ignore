@@ -1,16 +1,15 @@
 ---
 name: "Jellyfin Ignore"
 guid: "277cd84e-44c3-45a1-8f3c-2537ddac0ccf"
-version: "1.0.0.0"
+version: "0.1.0.0"
 targetAbi: "10.8.0.0"
-framework: "net7.0"
-overview: "Short description about your plugin"
+framework: "net6.0"
+overview: "Specifiy filepath patterns to ignore on library scan"
 description: >
-  This is a longer description that can span more than one
-  line and include details about your plugin.
+  This Jellyfin plugin allows you to specify filepath patterns to ignore when performing a library scan. It can for example ignore specific file extensions (like .m3u). The patterns can be specified on the plugin configuration page.
 category: "General"
 owner: "fdett"
 artifacts:
 - "Jellyfin.Plugin.Ignore.dll"
 changelog: >
-  changelog
+  First version
