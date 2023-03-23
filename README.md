@@ -28,8 +28,9 @@ Run the build script (after allowing for execution: chmod +x build_plugin.sh)
 ```
 ./build_plugin.sh
 ```
+Manually update the sourceUrl in the manifest to ensure we can download the zip file in its raw format (this should be updated eventually).
 
-Commit and push changes
+Commit and push changes.
 
 
 
