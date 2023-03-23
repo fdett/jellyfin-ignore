@@ -32,9 +32,11 @@
         "type": "shell",
         "command": "mkdir",
         "args": [
-           "-Force",
-           "-Path",
-           "${config:jellyfinDataDir}/plugins/${config:pluginName}/"
+           //"-Force",
+           //"-Path",
+           //"${config:jellyfinDataDir}/plugins/${config:pluginName}/"
+            "-p",
+            "${config:jellyfinDataDir}/plugins/${config:pluginName}/"
         ]
     },
     {

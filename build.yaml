@@ -1,16 +1,16 @@
 ---
-name: "Template"
-guid: "eb5d7894-8eef-4b36-aa6f-5d124e828ce1"
+name: "Jellyfin Ignore"
+guid: "277cd84e-44c3-45a1-8f3c-2537ddac0ccf"
 version: "1.0.0.0"
 targetAbi: "10.8.0.0"
-framework: "net6.0"
+framework: "net7.0"
 overview: "Short description about your plugin"
 description: >
   This is a longer description that can span more than one
   line and include details about your plugin.
 category: "General"
-owner: "jellyfin"
+owner: "fdett"
 artifacts:
-- "Jellyfin.Plugin.Template.dll"
+- "Jellyfin.Plugin.Ignore.dll"
 changelog: >
   changelog
