@@ -11,7 +11,7 @@
                 "version": "0.2303.2316.1910",
                 "changelog": "First version\n",
                 "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://github.com/fdett/jellyfin-ignore/blob/master/jellyfin-ignore/jellyfin-ignore_0.2303.2316.1910.zip?raw=true",
+                "sourceUrl": "https://github.com/fdett/jellyfin-ignore/releases/download/v0.1/jellyfin-ignore_0.2303.2316.1910.zip",
                 "checksum": "0ffc3d3401ea9d92f1e968990f225df2",
                 "timestamp": "2023-03-23T16:19:13Z"
             }
