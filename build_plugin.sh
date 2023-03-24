@@ -55,7 +55,7 @@ meta_version=$(ggrep -Po '^ *version: * "*\K[^"$]+' "${PLUGIN}/build.yaml")
 VERSION=${VERSION:-$(echo $meta_version | sed 's/\.[0-9]*\.[0-9]*\.[0-9]*$/.'"$VERSION_SUFFIX"'/')}
 
 # !!! VERSION IS OVERWRITTEN HERE
-#VERSION="${meta_version}"
+VERSION="${meta_version}"
 
 find "${PLUGIN}" -name project.assets.json -exec rm -v '{}' ';'
 
