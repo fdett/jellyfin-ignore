@@ -1,5 +1,5 @@
 # Jellyfin Ignore Plugin
-This Jellyfin plugin allows you to specify filepath patterns to ignore when performing a library scan. It can for example ignore specific file extensions (like .m3u). The patterns can be specified on the plugin configuration page.
+This [Jellyfin](https://github.com/jellyfin) plugin allows you to specify filepath patterns to ignore when performing a library scan. It can for example ignore specific file extensions (like .m3u). The patterns can be specified on the plugin configuration page.
 
 ## Install plugin
 Go the the Jellyfin plugin page (in the admin section).
