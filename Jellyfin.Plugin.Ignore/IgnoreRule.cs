@@ -46,7 +46,7 @@ public class IgnoreRule : IResolverIgnoreRule
     /// <param name="fileInfo">The file we are looking at to decide if we should ignore it.</param>
     /// <param name="parent">The BaseItem.</param>
     /// <returns>Whether the file should be ignored.</returns>
-    public bool ShouldIgnore(FileSystemMetadata fileInfo, BaseItem parent)
+    public bool ShouldIgnore(FileSystemMetadata fileInfo, BaseItem? parent)
     {
         if (_globs == null)
         {
@@ -58,7 +58,12 @@ public class IgnoreRule : IResolverIgnoreRule
             return false;
         }
 
-        var path = Path.Join(parent.Path, fileInfo.Name);
+        var path = fileInfo.Name;
+
+        if (parent != null)
+        {
+            path = Path.Join(parent.Path, fileInfo.Name);
+        }
 
         int len = _globs.Length;
         for (int i = 0; i < len; i++)
