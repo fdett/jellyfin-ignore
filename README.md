@@ -13,6 +13,14 @@ Go to the plugin configuration page and add patterns to ignore on library scans.
 ## Setup for development
 Follow instructions in jellyfin plugin template [repository](https://github.com/jellyfin/jellyfin-plugin-template)
 
+1) Install latest dotnet version
+2) In the same directory, pull this plugin, jellyfin, and jellyfin-web
+3) Copy jellyfin-web dist files to jellyfin bin
+4) Run jellyfin-web project to test it works
+5) Run this plugin project
+
+If you need to create a new account, force the wizard: http://localhost:8096/web/index.html#!/wizardstart.html
+
 ## Publish a new version
 
 ### Setup
@@ -37,6 +45,11 @@ Manually update the sourceUrl in the manifest to ensure we can download the zip 
 Commit and push changes.
 
 Create a release on github and attach/upload the zip file.
+
+### Good to know
+
+* The image/logo is not included in the plugin archive but as a link in the meta.json and in the manifest.json files. The image is hosted in this repository.
+* Make sure the build instructions (.vscode files) are still valid
 
 
 

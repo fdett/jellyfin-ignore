@@ -9,7 +9,8 @@
     // This is where jellyfin stores its configs, plugins, metadata etc
     // This is platform specific by default, but on Windows defaults to
     // ${env:LOCALAPPDATA}/jellyfin
-    "jellyfinDataDir" : "$HOME/.local/share/jellyfin",
+    //"jellyfinDataDir" : "$HOME/.local/share/jellyfin",
+    "jellyfinDataDir" : "${env:HOME}/Library/Application Support/jellyfin",
     // The name of the plugin
     "pluginName" : "Jellyfin.Plugin.Ignore",
 }
