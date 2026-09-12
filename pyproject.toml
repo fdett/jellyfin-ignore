@@ -1,0 +1,19 @@
+[project]
+name = "jellyfin-plugin-ignore"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "fdett", email = "" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "jprm",
+]
+
+[project.scripts]
+jellyfin-plugin-ignore = "jellyfin_plugin_ignore:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
