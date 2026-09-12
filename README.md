@@ -15,9 +15,10 @@ Follow instructions in jellyfin plugin template [repository](https://github.com/
 
 1) Install latest dotnet version
 2) In the same directory, pull this plugin, jellyfin, and jellyfin-web
-3) Copy jellyfin-web dist files to jellyfin bin
-4) Run jellyfin-web project to test it works
-5) Run this plugin project
+3) Follow jellyfin-web readme to build the project
+4) Copy jellyfin-web dist files to jellyfin bin (Jellyfin.Server > bin > Debug > net10.0 > jellyfin-web)
+5) Run jellyfin project to test it works
+6) Run this plugin project. It will launch jellyfin server.
 
 If you need to create a new account, force the wizard: http://localhost:8096/web/index.html#!/wizardstart.html
 
@@ -31,7 +32,7 @@ brew install grep
 
 Install [jprm](https://github.com/oddstr13/jellyfin-plugin-repository-manager)
 ```
-pip install --user jprm
+pip3 install --user jprm
 ```
 
 ### Process
